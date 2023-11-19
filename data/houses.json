@@ -1,0 +1,604 @@
+[
+    {
+        "image": "https://i.ibb.co/sPJChqL/property-header-1.jpg",
+        "propertyName": "Villa on Hartford",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "20,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2840",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/gt5Wd1p/property-2.jpg",
+        "propertyName": "Family home in Glasgow",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "29,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2840",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/xCXc8R0/property-3.jpg",
+        "propertyName": "Villa on Hartford",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "20,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2040",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/CKK5Xx3/property-4.jpg",
+        "propertyName": "Villa on Hartford",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "Apartment in Cecil Lake",
+        "rent": "21,099",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2240",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/t4RCzxT/property-5.jpg",
+        "propertyName": "Bay view Apartment",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "20,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2340",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/tQmZpGv/property-6.jpg",
+        "propertyName": "Office Space in Thatcham",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "28,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2240",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/Ycq7HKW/property-7.jpg",
+        "propertyName": "Luxury Villa in Birmingham",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "10,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2040",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/nmtJ3pf/property-8.jpg",
+        "propertyName": "Luxury Condo in Mariwood",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "24,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2140",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/R3kfhgY/property-9.jpg",
+        "propertyName": "Villa on Subway",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "20,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "1840",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/2qFMY49/image-1.jpg",
+        "propertyName": "Comfortable Family Apartment",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "12,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2140",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/mcnYrMv/image-2.jpg",
+        "propertyName": "Apartment in Gulistan",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "22,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2140",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/JRpGwBW/image-3.jpg",
+        "propertyName": "Apartment in Mohammadpur",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "20,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "2140",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/t8MVrgM/image-5.jpg",
+        "propertyName": "Home in Jatrabari",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "14,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "1840",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    },
+    {
+        "image": "https://i.ibb.co/t8MVrgM/image-5.jpg",
+        "propertyName": "Villa on Mazar Road",
+        "location": "2854 Meadow View Drive, Hartford, USA",
+        "ownerName": "Tony Stark",
+        "authorImage": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+        "rent": "60,000",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum minus voluptas expedita tenetur, totam maxime quae nobis, obcaecati accusantium repellat explicabo laudantium. Repudiandae explicabo deleniti, incidunt adipisci quidem accusantium quod corporis impedit laborum ea, non nostrum voluptatum porro dolorum enim. Quod, mollitia dolore tempora explicabo placeat eos hic ipsa veniam natus, aliquid reprehenderit aperiam temporibus. Quod reiciendis ducimus debitis ratione sunt, quia reprehenderit, in sequi laboriosam rerum ab eveniet culpa incidunt ipsa maiores dolore similique dignissimos maxime tenetur! Perspiciatis.",
+        "gallery": [
+            "https://i.ibb.co/5KzzL0D/property-view-1.jpg",
+            "https://i.ibb.co/yQtQSGp/property-view-2.jpg",
+            "https://i.ibb.co/xfFp714/property-view-3.jpg",
+            "https://i.ibb.co/zx6QryP/property-view-5.jpg",
+            "https://i.ibb.co/t4k4mVR/property-view-4.jpg"
+        ],
+        "video":"https://youtu.be/v_ATnE02qFs?si=cpAVhsvyKrGSGkic",
+        "propertyType": "Apartment",
+        "propertyStatus": "For rent",
+        "room": "6",
+        "bedroom": "4",
+        "bath": "3",
+        "garage": "1",
+        "size": "3840",
+        "propertyPlan": "https://i.ibb.co/YcrpkWG/plan-1.jpg",
+        "review": [
+            {
+                "name": "Abdus Siam",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Motaleb",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            },
+            {
+                "name": "Salamot",
+                "img": "https://i.ibb.co/gF5Xghz/owner-1.jpg",
+                "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium voluptates eum, velit recusandae, ducimus earum aperiam commodi error officia optio aut et quae nam nostrum!"
+            }
+        ]
+        
+    }
+]
