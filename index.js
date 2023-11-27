@@ -62,7 +62,7 @@ async function run() {
       const user = await usersCollection.findOne(query);
       if(user) {
         const token = jwt.sign({email}, process.env.ACCESS_TOKEN, {
-          expiresIn: "24h",
+          expiresIn: "1h",
         })
         return res.send({accessToken: token})
       }
@@ -82,6 +82,7 @@ async function run() {
 
     app.get('/properties', async (req, res) => {
         const search = req.query;
+        console.log(search)
         const city = await req.query.city;
         const area =await req.query.area;
         const type =await req.query.type;
@@ -89,14 +90,17 @@ async function run() {
           const query = {
             city : city,
             area: area,
-            propertyType: type
+            propertyType: type,
+            isRent: true
           }
           const houses = await housesCollection.find(query).toArray();
           return res.send(houses)
         }
-        const query = {};
+        else{
+          const query = {isRent: true};
         const houses = await housesCollection.find(query).toArray();
         res.send(houses);
+        }
     });
 
     app.post("/properties",verifyJWT, async (req, res) => {
@@ -108,6 +112,13 @@ async function run() {
     app.get("/searchProperty", async (req, res) => {
       const query = req.query;
       console.log(query);
+    })
+
+    app.get("/myProperty", async (req, res) => {
+      const email = req.query.email;
+      const query = {ownerEmail: email};
+      const property =await housesCollection.find(query).toArray();
+      res.send(property);
     })
 
     app.get('/propertyDetails/:id', async (req, res) => {
@@ -146,6 +157,34 @@ async function run() {
       res.send(result);
     });
 
+    app.put("/properties/update/:isRent", async (req, res) => {
+      const isRent = req.params.isRent;
+      const id = req.query.id;
+      const filter = { _id: ObjectId(id) }
+      const property = await housesCollection.findOne(filter);
+      const option = { upsert: true };
+      let updatedDoc = {};
+      if( isRent === 'hide'){
+        updatedDoc = {
+          $set: {
+            isRent: false,
+          },
+        };
+      }else{
+        updatedDoc = {
+          $set: {
+            isRent: true,
+          },
+        };
+      }
+      const result = await housesCollection.updateOne(
+        filter,
+        updatedDoc,
+        option
+      );
+      res.send({acknowledged: true});
+    })
+
     // booking related code
     app.post("/bookings", async (req, res) => {
       console.log("booking api is called");
@@ -163,13 +202,13 @@ async function run() {
       res.send({acknowledged: true});
     });
 
-    app.get("/bookings",verifyJWT, async (req, res) => {
+    app.get("/bookings", async (req, res) => {
       const email = req.query.email;
-      const decodedEmail = req.decoded.email;
+      // const decodedEmail = req.decoded.email;
 
-      if(email !== decodedEmail){
-        return res.status(403).send("forbidden access");
-      }
+      // if(email !== decodedEmail){
+      //   return res.status(403).send("forbidden access");
+      // }
       const query = {email: email};
       const booking = await bookingsCollection.find(query).toArray();
       res.send(booking)
@@ -181,13 +220,13 @@ async function run() {
       res.send(booking)
     });
 
-    app.get("/transportBooking",verifyJWT, async (req, res) => {
+    app.get("/transportBooking", async (req, res) => {
       const email = req.query.email;
-      const decodedEmail = req.decoded.email;
+      // const decodedEmail = req.decoded.email;
 
-      if(email !== decodedEmail){
-        return res.status(403).send("forbidden access");
-      }
+      // if(email !== decodedEmail){
+      //   return res.status(403).send("forbidden access");
+      // }
       const query = {userEmail: email};
       const booking = await transportBookingCollection.find(query).toArray();
       res.send(booking)
@@ -201,14 +240,14 @@ async function run() {
 
     app.post("/transportBooking", async(req, res) =>{
       const booking = req.body;
-     const query = {
-        userEmail: booking.userEmail
-      };
-      const alreadyBooked = await transportBookingCollection.find(query).toArray();
-      if (alreadyBooked.length) {
-        const message = `You already have a booking on this property`;
-        return res.send({ acknowledged: false, message });
-      }
+    //  const query = {
+    //     userEmail: booking.userEmail
+    //   };
+    //   const alreadyBooked = await transportBookingCollection.find(query).toArray();
+    //   if (alreadyBooked.length) {
+    //     const message = `You already have a booking on this property`;
+    //     return res.send({ acknowledged: false, message });
+    //   }
       const result = await transportBookingCollection.insertOne(booking);
       res.send({acknowledged: true}); 
     })
@@ -250,6 +289,62 @@ async function run() {
       const user = await usersCollection.findOne(query);
       res.send({ isOwner: user?.role === "owner" });
     });
+
+    app.get("/user/request/:email", async (req, res) => {
+      const email = req.params.email;
+      const query = { email: email };
+      const user = await usersCollection.findOne(query);
+      res.send({ isOwner: user?.role === "request" });
+    });
+
+    app.put("/user/update/:role", async(req, res) =>{
+      const email = req.query.email;
+      console.log(email)
+      const role = req.params.role;
+      const filter = { email: email }
+      const users = await usersCollection.findOne(filter);
+      const option = { upsert: true };
+      if(role === 'request'){
+        const updatedDoc = {
+          $set: {
+            role: role,
+          },
+        };
+        const result = await usersCollection.updateOne(
+          filter,
+          updatedDoc,
+          option
+        );
+        return res.send({acknowledged: true});
+      }
+      else if(role === 'confirm'){
+        const updatedDoc = {
+          $set: {
+            role: 'owner',
+          },
+        };
+        const result = await usersCollection.updateOne(
+          filter,
+          updatedDoc,
+          option
+        );
+        return res.send({acknowledged: true});
+      }
+      else{
+        const updatedDoc = {
+          $set: {
+            role: 'user',
+          },
+        };
+        const result = await usersCollection.updateOne(
+          filter,
+          updatedDoc,
+          option
+        );
+        return res.send({acknowledged: true});
+      }
+    });
+
     // WishList
 
     app.get('/wishlist', async(req, res) => {
@@ -262,7 +357,7 @@ async function run() {
       properties.forEach(async (property) =>{
         mylist.forEach(li => {
           if(JSON.stringify(property._id) === JSON.stringify(li.propertyId)){
-            wishlist = [...wishlist, property]
+          wishlist = [...wishlist, property]
           }
         })
       })
@@ -270,8 +365,10 @@ async function run() {
     })
 
     app.post("/wishlist", async(req,res) => {
+      // const email = req.query.
       const list = req.body;
       const query = {
+        email: list.email,
         propertyId: list.propertyId
       };
       const alreadyBooked = await wishListCollection.find(query).toArray();
