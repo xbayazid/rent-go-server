@@ -219,6 +219,12 @@ async function run() {
       const booking = await bookingsCollection.find(query).toArray();
       res.send(booking)
     });
+    app.get('/myPropertyBooking', async (req, res) => {
+      const email = req.query.email;
+      const query = {authorEmail: email};
+      const result = await bookingsCollection.find(query).toArray();
+      res.send(result);
+    })
 
     app.get("/transportBooking", async (req, res) => {
       const email = req.query.email;
