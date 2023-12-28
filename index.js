@@ -103,7 +103,7 @@ async function run() {
         }
     });
 
-    app.post("/properties",verifyJWT, async (req, res) => {
+    app.post("/properties", async (req, res) => {
       const property = req.body;
       const result = await housesCollection.insertOne(property);
       res.send(result);
